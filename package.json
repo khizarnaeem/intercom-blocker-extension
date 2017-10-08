@@ -14,9 +14,7 @@
   "dependencies": {
     "pretty-bytes": "^4.0.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "semantic-ui-css": "^2.2.12",
-    "semantic-ui-react": "^0.71.5"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
