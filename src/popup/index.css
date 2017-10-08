@@ -1,0 +1,67 @@
+html, body {
+  width: 400px;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.icb-header {
+  height: 25px;
+}
+
+.icb-header .mdl-layout__header {
+  height: 25px;
+  min-height: 64px;
+}
+
+.icb-header .mdl-layout__header-row {
+  height: 25px;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+.icb-header .mdl-layout-title {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.ipb-btn {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  color: #fff !important;
+}
+
+.ipb-btn-red {
+  background-color: red !important;
+}
+.ipb-btn-green {
+  background-color: green !important;
+}
+
+.ipb-btn-cpt {
+  font-size: 12px;
+  display: block;
+  text-transform: lowercase;
+}
+
+.ipb-btn-caption {
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: rgba(0,0,0,.54);
+}
+
+.demo-card-square.mdl-card.mdl-shadow--2dp {
+  width: 390px;
+  margin-left: -10px;
+}
+
+.mdl-shadow--2dp {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 1px -2px rgba(0,0,0,.2), 0 0px 0px 0 rgba(0,0,0,.12);
+}

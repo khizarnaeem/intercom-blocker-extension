@@ -1,0 +1,41 @@
+{
+  "name": "intercom-popup-blocker-plugin",
+  "version": "1.0.0",
+  "description": "Chrome extension which blocks Intercom popups to remove distractions for you",
+  "author": "Khizar Naeem",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js --progress",
+    "watch": "NODE_ENV=development webpack --watch",
+    "test": "flow && jest",
+    "flow": "flow",
+    "start:dev": "NODE_ENV=development webpack-dev-server"
+  },
+  "dependencies": {
+    "pretty-bytes": "^4.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.71.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react-app": "^3.0.2",
+    "babel-preset-stage-1": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "flow-bin": "^0.46.0",
+    "html-webpack-plugin": "^2.30.1",
+    "img-loader": "^2.0.0",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
