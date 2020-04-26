@@ -1,5 +1,5 @@
 # Chrome Extension: Intercom Blocker
-Chrome extension that blocks the annoying Intercom.com.
+Chrome extension that blocks the annoying Intercom.com popups.
 
 How to run it locally:
 
